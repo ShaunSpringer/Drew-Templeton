@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name = "viewport" content = "width = device-width, user-scalable=no">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/gallery.css">
+        <link rel="stylesheet" href="../css/index.css">
+        <script src="..js/vendor/modernizr-2.6.1.min.js"></script>
+
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,200italic,400italic,700italic' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript" src="http://fast.fonts.com/jsapi/e4ea2fd3-2ae1-4e95-86a8-b1254c7d9fc3.js"></script>
+
+        <style>
+                .es-carousel ul{
+                    display:block;
+                }
+            </style>
+        </noscript>
+        <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">    
+            <div class="rg-image-wrapper">
+                {{if itemsCount > 1}}
+                    <div class="rg-image-nav">
+                        <a href="#" class="rg-image-nav-prev">Previous Image</a>
+                        <a href="#" class="rg-image-nav-next">Next Image</a>
+                    </div>
+                {{/if}}
+                <div class="rg-image"></div>
+                <div class="rg-loading"></div>
+                <div class="rg-caption-wrapper">
+                    <div class="rg-caption" style="display:none;">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </script>
+
+    </head>
+    <body onload="initialize()">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <div id="wrapper">
+
+            <div class="box" id="box-1">
+
+            <header>
+
+            <a href="../index.html" >
+            
+            <div id="logo">
+                <img src="../img/lm-logo.svg" alt="Little Market American Brasserie Logo" data-fallback="../img/lm-logo.png"&nbsp; alt="LLittle Market American Brasserie Logo" />
+            </div>
+ 
+            </a>
+                <div id="sm-icons-pos">
+
+                    <div class="sm-icons">
+                        <object data='../img/icon-facebook.svg'>
+                            <img src='../img/icon-facebook.png'>
+                        </object>
+                    </div>
+
+                    <div class="sm-icons">
+                        <object data='../img/icon-twitter.svg'>
+                            <img src='../img/icon-twitter.png'>
+                        </object>
+                    </div>
+
+                    <div class="sm-icons">
+                        <object data='../img/icon-opentable.svg'>
+                            <img src='../img/icon-opentable.png'>
+                        </object>
+                    </div>
+
+                </div>
+
+            <nav> 
+
+                   <ul> 
+                    <li><a href="../info.html">Info</a></li>
+                    <li><a href="../menus.html">Menus</a></li>
+                    <li><a href="../reservations.html">Reservations</a></li> 
+                    <li><a href="../gallery.html">Gallery</a></li> 
+                    <li><a href="../largeparties.html">Large Parties</a></li>
+                    <li><a href="../happenings.html">Happenings</a></li>  
+                    <li><a href="../delivery.html">Delivery</a></li> 
+                    <li><a href="../ourstory.html">Our Story</a></li> 
+                    <li><a href="../press.html">Press</a></li> 
+                  </ul> 
+                  
+                  <select> 
+                    <option value="" selected="selected">Navigation</option> 
+                    
+                    <option value="../info.html">Info</option> 
+                    <option value="../menus.html">Menus</option>
+                    <option value="../reservations.html">Reservations</option> 
+                    <option value="../gallery.html">Gallery</option>
+                    <option value="../largeparties.html">Large Parties</option> 
+                    <option value="../happenings.html">Happenings</option> 
+                    <option value="../delivery.html">Delivery</option> 
+                    <option value="../ourstory.html">Our Story</option> 
+                    <option value="../press.html">Press</option> 
+                  </select> 
+
+            </nav>
+
+            </header>
+
+            </div> <!-- END BOX 1 -->
+
+            <div class="background-circles">
+                <object data='../img/bg-circle.svg'>
+                    <img src='../img/bg-circle.png'>
+                </object>
+            </div>
+
+        <h1 class="title">Gallery</h1>
+
+        <div id="rg-gallery" class="rg-gallery">
+                    <div class="rg-thumbs">
+                        <!-- Elastislide Carousel Thumbnail Viewer -->
+                        <div class="es-carousel-wrapper">
+                            <div class="es-nav">
+                                <span class="es-nav-prev">Previous</span>
+                                <span class="es-nav-next">Next</span>
+                            </div>
+                            <div class="es-carousel">
+                                <ul>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/1.jpg" data-large="../img/gallery/1.jpg" alt="Desert Trio" data-description="Here's the smaller description" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/2.jpg" data-large="../img/gallery/2.jpg" alt="image02" data-description="A Space Picture" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/3.png" data-large="../img/gallery/3.png" alt="image03" data-description="A plaintful story from a sistering vale" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/4.jpg" data-large="../img/gallery/4.jpg" alt="image04" data-description="My spirits to attend this double voice accorded" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/5.jpg" data-large="../img/gallery/5.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/6.jpg" data-large="../img/gallery/6.jpg" alt="image06" data-description="Ere long espied a fickle maid full pale" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/7.jpg" data-large="../img/gallery/7.jpg" alt="image07" data-description="Tearing of papers, breaking rings a-twain" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/8.jpg" data-large="../img/gallery/8.jpg" alt="image08" data-description="Storming her world with sorrow's wind and rain" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/9.jpg" data-large="../img/gallery/9.jpg" alt="image09" data-description="Upon her head a platted hive of straw" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/10.jpg" data-large="../img/gallery/10.jpg" alt="image10" data-description="Which fortified her visage from the sun" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/11.jpg" data-large="../img/gallery/11.jpg" alt="image11" data-description="Whereon the thought might think sometime it saw" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/12.jpg" data-large="../img/gallery/12.jpg" alt="image12" data-description="The carcass of beauty spent and done" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/13.jpg" data-large="../img/gallery/13.jpg" alt="image13" data-description="Time had not scythed all that youth begun" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/14.jpg" data-large="../img/gallery/14.jpg" alt="image14" data-description="Nor youth all quit; but, spite of heaven's fell rage" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/15.jpg" data-large="../img/gallery/15.jpg" alt="image15" data-description="Some beauty peep'd through lattice of sear'd age" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/16.jpg" data-large="../img/gallery/16.jpg" alt="image16" data-description="Oft did she heave her napkin to her eyne" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/17.jpg" data-large="../img/gallery/17.jpg" alt="image17" data-description="Which on it had conceited characters" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/18.jpg" data-large="../img/gallery/18.jpg" alt="image18" data-description="Laundering the silken figures in the brine" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/19.jpg" data-large="../img/gallery/19.jpg" alt="image19" data-description="That season'd woe had pelleted in tears" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/20.jpg" data-large="../img/gallery/20.jpg" alt="image20" data-description="And often reading what contents it bears" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/21.jpg" data-large="../img/gallery/21.jpg" alt="image21" data-description="As often shrieking undistinguish'd woe" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/22.jpg" data-large="../img/gallery/22.jpg" alt="image22" data-description="In clamours of all size, both high and low" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/23.jpg" data-large="../img/gallery/23.jpg" alt="image23" data-description="Sometimes her levell'd eyes their carriage ride" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/24.jpg" data-large="../img/gallery/24.jpg" alt="image24" data-description="As they did battery to the spheres intend" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/24.jpg" data-large="../img/gallery/24.jpg" alt="image24" data-description="As they did battery to the spheres intend" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/24.jpg" data-large="../img/gallery/24.jpg" alt="image24" data-description="As they did battery to the spheres intend" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/24.jpg" data-large="../img/gallery/24.jpg" alt="image24" data-description="As they did battery to the spheres intend" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/24.jpg" data-large="../img/gallery/24.jpg" alt="image24" data-description="As they did battery to the spheres intend" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/24.jpg" data-large="../img/gallery/24.jpg" alt="image24" data-description="As they did battery to the spheres intend" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/24.jpg" data-large="../img/gallery/24.jpg" alt="image24" data-description="As they did battery to the spheres intend" /></a></li>
+                                    <li><a href="#"><img src="../img/gallery/thumbs/24.jpg" data-large="../img/gallery/24.jpg" alt="image24" data-description="As they did battery to the spheres intend" /></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Elastislide Carousel Thumbnail Viewer -->
+                    </div><!-- rg-thumbs -->
+                </div><!-- rg-gallery -->
+
+        <div class="wrapper-page">
+
+        </div> <!-- END WRAPPER PAGE -->
+
+        <div class="bottom-box-pos" id="gallery">
+
+            <div class="bottom-box-three" id="gallery-one"><div class="tint"><div class="bottom-text-title"><h1>Reservations</h1></div></div></div>
+            <div class="bottom-box-three" id="gallery-two"><div class="tint"><div class="bottom-text-title"><h1>Menus</h1></div></div></div>
+            <div class="bottom-box-three" id="gallery-three"><div class="tint"><div class="bottom-text-title"><h1>Info</h1></div></div></div>
+        
+        </div> <!-- END BOTTOM BOXES -->
+
+        <footer>
+
+            <div id="footer">
+
+                    <div id="footer-mercadito">    
+
+                        <a href="http://www.mercaditorestaurants.com"><h5>Mercadito Restaurants</h5></a>
+                            <ul>
+                                <div class="footer-left">
+                                    <a href="http://www.mercaditorestaurants.com/chicago/index.php"><li>River North, Chicago</li></a>
+                                    <a href="http://www.mercaditorestaurants.com/grove/index.php"><li>Grove, NYC</li></a>
+                                    <a href="http://www.mercaditorestaurants.com/aveb/index.php"><li>Ave B, NYC</li></a>
+                                </div>
+                                <div class="footer-right">
+                                    <a href="http://www.mercaditorestaurants.com/midtown/index.php"><li>Midtown, Miami</li></a>
+                                    <a href="http://www.mercaditorestaurants.com/midtown/taqueria_midtown.php"><li>Taqueria, Miami</li></a>
+                                </div>
+                            </ul>
+
+                            <div class="scribble" id="scribble1"></div>
+
+                    </div>
+
+                    <div id="footer-tavernita">
+
+                        <a href="http://www.tavernita.com">
+                            <h5 class="footerh5">Tavernita</h5>
+                            <ul>
+                                <div class="footer-left">
+                                    <li>River North, Chicago</li>
+                                </div>
+                            </ul>
+                        </a>
+
+                        <a href="http://www.standandeat.com">
+                            <h5 class="footerh5" id="fr1">Barcito</h5>
+                            <ul>
+                                <div class="footer-left">
+                                    <li>River North, Chicago</li>
+                                </div>
+                            </ul>
+                        </a>
+                            <div class="scribble" id="scribble2"></div>
+                    </div>
+
+                    <div id="footer-doublea">
+                        <a href="http://www.doubleachicago.com">
+                            <h5 class="footerh5">Double A</h5>
+                            <ul>
+                                <div class="footer-left">
+                                    <li>River North, Chicago</li>
+                                </div>
+                            </ul>
+                        </a>
+
+                        <a href="http://www.littlermarketbrasserie.com">
+                            <h5 class="footerh5" id="fr2">Little Market</h5>
+                            <ul>
+                                <div class="footer-left">
+                                    <li>River North, Chicago</li>
+                                </div>
+                            </ul>
+                        </a>
+                            <div class="scribble" id="scribble3"></div>
+                    </div>
+                
+                    <a href="http://www.mercaditohospitality.com"><div id="footer-logo"></div></a>
+
+            <div id="footer-button"></div>
+
+            </div> <!-- END FOOTER DIV -->
+
+        </footer>
+
+        <!-- SCRIPTS -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
+        <script type="text/javascript" src="../js/jquery.tmpl.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="../js/jquery.elastislide.js"></script>
+        <script type="text/javascript" src="../js/gallery.js"></script>
+        <script> $('nav select').change(function() { window.location = $(this).find("option:selected").val(); }); </script>
+        <script type="text/javascript" src="../js/retina.js"></script>
+    
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
