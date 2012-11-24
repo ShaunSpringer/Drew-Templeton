@@ -145,7 +145,6 @@
     transition: all 0.2s ease-in-out;
 }
 .es-carousel ul li .selected a{
-    
     opacity:1.0;
 }
 .es-carousel ul li a img{
