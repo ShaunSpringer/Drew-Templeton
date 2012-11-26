@@ -759,7 +759,12 @@ h4 {
     position: relative;
 }
 
+form {
+    position:relative;
+}
+
 form fieldset {
+    position:relative;
     background: none;
     background-image: none;
     margin: 0;
@@ -769,12 +774,15 @@ form fieldset {
 }
 
 label {
+    position: relative;
+    display: inline;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 16px;
     float: left;
-    width:  40%;
-    margin-top:  25px;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-left: 15px;
 }
 
 input {
@@ -836,6 +844,7 @@ value {
 }
 
 textarea {
+    position: relative;
     background: rgba(255,255,255, 0.5);
     padding: 15px;
     border: 1px solid #233138;
@@ -858,6 +867,15 @@ textarea:focus {
 
 fieldset {
     width: 100%;
+}
+
+ul {
+    margin-bottom:0;
+    margin-left:0;
+}
+li {
+    list-style:none;
+    position:relative;
 }
 
 /* OPENTABLE FORM

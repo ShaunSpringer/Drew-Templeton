@@ -129,23 +129,56 @@
 
             </div> <!--END INTERNAL BOX LEFT -->
 
+            <script>
+
+            $(document).ready(function() {
+                   $(function() {
+                    $('form').superLabels({
+                        slide:true
+                    });
+                });
+            });
+
+            </script>
+
             <div class="internal-box-right">
 
                 <form name="largepartyform" method="post" action="<?php bloginfo('template_directory'); ?>/send_form_email.php">
                 
-                        <fieldset id="user-details">    
-                        
-                            <input type="text" name="first_name" value="Full Name" onFocus="this.value=''" /> 
-                        
-                            <input type="email" name="email" value="E-Mail" onFocus="this.value=''"  /> 
-                        
-                            <input type="text" name="telephone" value="Phone" onFocus="this.value=''"  /> 
+                        <fieldset id="user-details">  
 
-                            <input type="text" name="date" value="Date Of Preference" onFocus="this.value=''"  />
+                        <ul>  
+                            <li>
+                            <label for="first_name">Full Name</label>
+                            <input type="text" name="first_name"  /> 
+                            </li>
 
-                            <input type="text" name="guests" value="Number Of Guests" onFocus="this.value=''"  />
+                            <li>
+                            <label for="email">E-Mail</label>
+                            <input type="email" name="email" /> 
+                            </li>
 
-                            <input type="text" name="time" value="Start Time" onFocus="this.value=''"  />
+                            <li>
+                            <label for="telephone">Telephone</label>
+                            <input type="tel" name="telephone" /> 
+                            </li>
+
+                            <li>
+                            <label for="date">Date Of Preference</label>
+                            <input type="text" name="date" />
+                            </li>
+
+                            <li>
+                            <label for="guests">Number Of Guests</label>
+                            <input type="text" name="guests" />
+                            </li>
+
+                            <li>
+                            <label for="time">Start Time</label>
+                            <input type="text" name="time" />
+                            </li>
+
+                        </ul>
                         
                         </fieldset><!--end user-details-->
         
@@ -252,6 +285,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
         <script src="../js/plugins.js"></script>
         <script src="../js/main.js"></script>
+        <script src="../js/jquery.superLabels.min.js"></script>
         <script> $('nav select').change(function() { window.location = $(this).find("option:selected").val(); }); </script>
     
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
