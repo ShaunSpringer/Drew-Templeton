@@ -80,7 +80,7 @@ nav ul li {
 
 nav ul li:hover {
     color: #4c646b;
-    border-top: 1px solid #4c646b;
+    bottom: 2px;
 }
 
 nav ul li a:hover {
@@ -273,6 +273,10 @@ p {
 
 p strong {
     font-weight:  500;
+}
+
+p a {
+    font-style: italic;
 }
 
 h1 {
@@ -987,7 +991,8 @@ fieldset {
 .ui-widget-header a { color: color: #233138;; }
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #fff; background: #fff; font-weight: bold; color: #4D4D4D; }
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #412b03; text-decoration: none; }
-.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #412b03; background: #ff9f67; font-weight: bold; color: #412b03; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { 
+    border: 1px solid #412b03; background: #ff9f67; font-weight: bold; color: #412b03; }
 .ui-state-hover a, .ui-state-hover a:hover { color: #414042; text-decoration: none; }
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #233138; background: #ff9f67; font-weight: bold; color: #ffffff; }
 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #233138; text-decoration: none; }
@@ -1008,7 +1013,8 @@ fieldset {
 .ui-icon-circle-triangle-e:hover { }
 
 .ui-widget-overlay { background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); }
-.ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }/*
+.ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: .30;
+filter:Alpha(Opacity=30); -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }/*
 
 .ui-datepicker { width: 18em; padding: .5em .5em .5em; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
