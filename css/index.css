@@ -76,11 +76,16 @@ nav ul li {
     text-align: center;
     margin-left: 10px;
     padding-top: 10px;
+    transition: all .15s;
+    -moz-transition: all .15s; 
+    -webkit-transition: all .15s; 
+    -o-transition: all .15s;
 }
 
 nav ul li:hover {
     color: #4c646b;
     bottom: 2px;
+
 }
 
 nav ul li a:hover {
