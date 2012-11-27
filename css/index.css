@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -59,7 +59,7 @@ ol.message_list { position: relative }
 -----D-R-E-W-T-E-M-P-L-E-T-O-N-.-C-O-M-----
 ------------------------------------------- */
 
-nav ul { 
+nav ul {
     position: absolute;
     right: 2%;
     bottom: 10%;
@@ -77,8 +77,8 @@ nav ul li {
     margin-left: 10px;
     padding-top: 10px;
     transition: all .15s;
-    -moz-transition: all .15s; 
-    -webkit-transition: all .15s; 
+    -moz-transition: all .15s;
+    -webkit-transition: all .15s;
     -o-transition: all .15s;
 }
 
@@ -92,7 +92,7 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-nav ul a { 
+nav ul a {
     color: #233138;
 }
 
@@ -130,10 +130,10 @@ a:hover {
 #info-left-box-pos {
     width: 170px;
     height: 150px;
-    position: absolute; 
+    position: absolute;
     margin: 0 auto;
     left: 25%;
-    top: 50%; 
+    top: 50%;
     margin-left: -85px;
     margin-top: -75px;
 }
@@ -164,8 +164,8 @@ body {
     background-size: 100px 100px;
     background-repeat: all;
     transition: all .25s;
-    -moz-transition: all .25s; 
-    -webkit-transition: all .25s; 
+    -moz-transition: all .25s;
+    -webkit-transition: all .25s;
     -o-transition: all .25s;
     scrollbar-face-color: #b46868;
 }
@@ -262,7 +262,7 @@ body {
     height: 75px;
     position: absolute;
     left: 50%;
-    top: 50%; 
+    top: 50%;
     margin-left: -50%;
     margin-top: -37.5px;
 }
@@ -378,7 +378,7 @@ h4 {
     width: 100%;
     height: auto;
     position: relative;
-    
+
 }
 
 .bottom-box-three {
@@ -442,7 +442,7 @@ h4 {
     height: 75px;
     position: absolute;
     left: 50%;
-    top: 50%; 
+    top: 50%;
     margin-left: -50%;
     margin-top: -37.5px;
 }
@@ -456,7 +456,7 @@ h4 {
     width: 33.3333333333333333%;
     min-width: 300px;
     height: 118px;
-    float: left;   
+    float: left;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -516,8 +516,8 @@ h4 {
     overflow: hidden;
 }
 
-.video-container iframe,  
-.video-container object,  
+.video-container iframe,
+.video-container object,
 .video-container embed {
     position: absolute;
     top: 0;
@@ -644,8 +644,8 @@ h4 {
 	margin: 0;
     overflow: hidden;
 	transition: all .25s;
-    -moz-transition: all .25s; 
-    -webkit-transition: all .25s; 
+    -moz-transition: all .25s;
+    -webkit-transition: all .25s;
     -o-transition: all .25s;
     background-size: 100%;
 }
@@ -655,8 +655,8 @@ h4 {
     width: 100%;
     height: 100%;
     transition: all .25s;
-    -moz-transition: all .25s; 
-    -webkit-transition: all .25s; 
+    -moz-transition: all .25s;
+    -webkit-transition: all .25s;
     -o-transition: all .25s;
 }
 
@@ -738,7 +738,7 @@ h4 {
     height: 79px;
     position: absolute;
     left: 2%;
-    top: 50%; 
+    top: 50%;
     margin-top: -39.5px;
     z-index: 100;
 }
@@ -829,8 +829,8 @@ input[type=submit] {
     overflow: visible;
     margin-right: 8px;
     transition: all .15s;
-    -moz-transition: all .15s; 
-    -webkit-transition: all .15s; 
+    -moz-transition: all .15s;
+    -webkit-transition: all .15s;
     -o-transition: all .15s;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
@@ -847,7 +847,7 @@ input[type=submit]:active {
 }
 
 input:focus
-{ 
+{
     border: 1px solid #ff9f67;
     outline: none;
 }
@@ -897,18 +897,22 @@ li {
 -----D-R-E-W-T-E-M-P-L-E-T-O-N-.-C-O-M-----
 ------------------------------------------- */
 
-#reservations{ 
+#reservations{
     width: 100%;
 }
 
 #reservations label{
-    text-align:center;  
+    text-align:center;
     margin-top:5px;
     display:block;
 }
 
 #datepicker{
-    z-index:10; 
+    z-index:10;
+}
+
+#ui-datepicker-div {
+    display: none;
 }
 
 .dropdown dt {
@@ -923,7 +927,7 @@ li {
     color: #233138;
     height: 0px;
     width: 0px;
-    float: left;    
+    float: left;
     position:relative;
     cursor:pointer;
 }
@@ -967,7 +971,7 @@ li {
     padding: 3px;
     width:100%;
     cursor:pointer;
-    color:#000; 
+    color:#000;
     border-bottom: 1px solid #233138;
 }
 
@@ -1023,7 +1027,7 @@ li {
 .ui-widget-header a { color: color: #233138;; }
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #fff; background: #fff; font-weight: bold; color: #4D4D4D; }
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #412b03; text-decoration: none; }
-.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { 
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
     border: 1px solid #412b03; background: #ff9f67; font-weight: bold; color: #412b03; }
 .ui-state-hover a, .ui-state-hover a:hover { color: #414042; text-decoration: none; }
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #233138; background: #ff9f67; font-weight: bold; color: #ffffff; }
@@ -1063,13 +1067,13 @@ filter:Alpha(Opacity=30); -moz-border-radius: 8px; -webkit-border-radius: 8px; b
 .ui-datepicker .ui-datepicker-title { margin: 0 2.3em; line-height: 1.8em; text-align: center; }
 .ui-datepicker .ui-datepicker-title select { font-size:1em; margin:1px 0; }
 .ui-datepicker select.ui-datepicker-month-year {width: 100%;}
-.ui-datepicker select.ui-datepicker-month, 
+.ui-datepicker select.ui-datepicker-month,
 .ui-datepicker select.ui-datepicker-year { width: 49%;}
 .ui-datepicker table {width: 100%; font-size: .9em; border-collapse: collapse; margin:0 0 .4em; }
 .ui-datepicker th { padding: .7em .3em; text-align: right; border: 0; font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-    font-style: italic;  }  
+    font-style: italic;  }
 .ui-datepicker td { border: 0; padding: 1px; }
 .ui-datepicker td span, .ui-datepicker td a { display: block; padding: .2em; text-align: right; text-decoration: none; }
 .ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: .7em 0 0 0; padding:0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
@@ -1117,8 +1121,8 @@ filter:Alpha(Opacity=30); -moz-border-radius: 8px; -webkit-border-radius: 8px; b
 .ui-slider-horizontal .ui-slider-range-max { right: 0; }
 
 .ui-slider .ui-slider-handle{
-    width:20px; 
-    height:20px; 
+    width:20px;
+    height:20px;
     background-color: #ff9f67;
     border: 1px solid #233138;
     position:absolute;
@@ -1142,12 +1146,12 @@ footer {
     z-index: 100;
     width: 100%;
     background: rgb(0, 0, 0); /* The Fallback */
-    background: rgba(0, 0, 0, 0.85); 
+    background: rgba(0, 0, 0, 0.85);
     bottom: -170px;
     height: 200px;
     transition: all .25s;
-    -moz-transition: all .25s; 
-    -webkit-transition: all .25s; 
+    -moz-transition: all .25s;
+    -webkit-transition: all .25s;
     -o-transition: all .25s;
 }
 
@@ -1342,7 +1346,7 @@ footer ul {
     .rg-caption p{
         font-size: 1em;
         left: 2%;
-        top: 13px; 
+        top: 13px;
 }
 }
 
@@ -1463,11 +1467,11 @@ footer ul {
         width: 150px;
 }
 
-    nav ul     { 
-        display: none; 
+    nav ul     {
+        display: none;
 }
 
-    nav select { 
+    nav select {
         display: inline;
         margin-top: 10px;
         width: 70%;
@@ -1480,7 +1484,7 @@ footer ul {
     .sm-icons {
         display: none;
 }
-    
+
     .text-title {
         background-image: url("../img/bg-title_@2x.png");
         background-size: 100px 100px;
@@ -1539,7 +1543,7 @@ footer ul {
 
     p {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: .9em;      
+        font-size: .9em;
 }
 
     footer {
@@ -1557,17 +1561,17 @@ footer ul {
         background-size: 100px 100px;
     }
 
-    nav ul     { 
-        display: none; 
+    nav ul     {
+        display: none;
 }
 
-    nav select { 
+    nav select {
         display: inline;
         width: 30%;
         height: 25px;
         position: absolute;
         right: 2%;
-        bottom: 10%; 
+        bottom: 10%;
         margin-top: -12.5px;
 }
 
@@ -1642,11 +1646,11 @@ footer ul {
         width: 200px;
 }
 
-    nav ul     { 
-        display: none; 
+    nav ul     {
+        display: none;
 }
 
-    nav select { 
+    nav select {
         display: inline;
         margin-top: 50px;
         width: 70%;
