@@ -126,7 +126,7 @@ $(document).ready(function() {
 			timezone: null,
 			useLocalTimezone: false,
 			defaultTimezone: "+0000",
-			hourMin: 0,
+			hourMin: 6,
 			minuteMin: 0,
 			secondMin: 0,
 			millisecMin: 0,
