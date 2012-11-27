@@ -112,37 +112,6 @@
 
             <div class="internal-box-left">
 
-                <h2>Large Party Options</h3>
-
-                <p>
-                    Plan your next birthday, office party, or event at Tavernita Chicago. For parties of eight or more we offer different sharing menus and beverage choices. We can accommodate parties of 8 guests up to 100 for sit down dining, and up to 125 for a cocktail style party. 
-                    <br><br>The following documents have Sharing Menu Options for a Sit Down Dinner, and Passed Hors D’oeuvres for a Cocktail Style reception.
-                    <br><br>
-                    Please fill out the following form to contact our event manager so that we can help you plan your next memorable event.
-
-                    <br><br><a>Sharing Menu Options</a>
-                    <br><br><a>Cocktail Style Reception</a>
-                    <br><br><a>Large Parties Page & More Information</a>
-                    <br><br><a>Large Menu Options & Agreement</a>
-                    <br><br><a>Event Planner Package</a>
-                </p>
-
-            </div> <!--END INTERNAL BOX LEFT -->
-
-            <script>
-
-            $(document).ready(function() {
-                   $(function() {
-                    $('form').superLabels({
-                        slide:true
-                    });
-                });
-            });
-
-            </script>
-
-            <div class="internal-box-right">
-
                 <form name="largepartyform" method="post" action="<?php bloginfo('template_directory'); ?>/send_form_email.php">
                 
                         <fieldset id="user-details">  
@@ -164,18 +133,13 @@
                             </li>
 
                             <li>
-                            <label for="date">Date Of Preference</label>
-                            <input type="text" name="date" />
+                            <label for="date">Date & Time Of Preference</label>
+                            <input type="text" name="date" id="timepicker" />
                             </li>
 
                             <li>
                             <label for="guests">Number Of Guests</label>
                             <input type="text" name="guests" />
-                            </li>
-
-                            <li>
-                            <label for="time">Start Time</label>
-                            <input type="text" name="time" />
                             </li>
 
                         </ul>
@@ -190,7 +154,28 @@
                     
                     </fieldset><!-- end user-message -->
          
-                </form>
+                </form>                
+
+            </div> <!--END INTERNAL BOX LEFT -->
+
+            <div class="internal-box-right">
+
+                <h2>Large Party Options</h3>
+
+                <p>
+                    Plan your next birthday, office party, or event at Tavernita Chicago. For parties of eight or more we offer different sharing menus and beverage choices. We can accommodate parties of 8 guests up to 100 for sit down dining, and up to 125 for a cocktail style party. 
+                    <br><br>The following documents have Sharing Menu Options for a Sit Down Dinner, and Passed Hors D’oeuvres for a Cocktail Style reception.
+                    <br><br>
+                    Please fill out the following form to contact our event manager so that we can help you plan your next memorable event.
+
+                    <br><br><a>Sharing Menu Options</a>
+                    <br><br><a>Cocktail Style Reception</a>
+                    <br><br><a>Large Parties Page & More Information</a>
+                    <br><br><a>Large Menu Options & Agreement</a>
+                    <br><br><a>Event Planner Package</a>
+                </p>
+
+                
 
             </div> <!--END INTERNAL BOX RIGHT -->
 
@@ -277,6 +262,18 @@
             </div> <!-- END FOOTER DIV -->
 
         </footer>
+
+        <script>
+
+            $(document).ready(function() {
+                   $(function() {
+                    $('form').superLabels({
+                        slide:true
+                    });
+                });
+            });
+
+        </script>
 
         <!-- SCRIPTS -->
 

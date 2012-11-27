@@ -21,10 +21,6 @@
 
         <script type="text/javascript" src="http://fast.fonts.com/jsapi/e4ea2fd3-2ae1-4e95-86a8-b1254c7d9fc3.js"></script>
 
-        <script type="text/javascript"
-            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDs20CBe8gCX5VOO8HG8Yew0Ij0F8N4TQU&sensor=true">
-        </script>
-
     </head>
     <body onload="initialize()">
         <!--[if lt IE 7]>
@@ -100,86 +96,115 @@
 
             </div> <!-- END BOX 1 -->
 
-        <div class="background-circles">
-            <object data='../img/bg-circle.svg'>
-                <img src='../img/bg-cirlce.png'>
-            </object>
-        </div>
+            <div class="background-circles">
+                <object data='../img/bg-circle.svg'>
+                    <img src='../img/bg-circle.png'>
+                </object>
+            </div>
 
-        <h1 class="title">Info</h1>
+        <h1 class="title">Press</h1>
 
-        <div id="map-pos-info">
-            <div id="map_canvas" style="width:100%; height:100%"></div>
-        </div>
+        <div class="wrapper-page" id="press-wrapper">
 
-        <div class="wrapper-page">
+            <div class="featured-article">
 
-            <div class="internal-box-left">
+                <img src="../img/press/thumb1.png">
 
-                <h2>Our Location & Hours</h3>
+                    <div class="featured-article-text">
 
-                <p id="info-page-text">10 E Delaware Pl.<br>
-                    Chicago, IL 60611<br>
-                    Telephone: 312-640-8141<br><br>
-                    <strong>Dinner</strong>- Monday-Sunday 4:30pm-12am<br>
-                    <strong>Lunch</strong>- Monday-Sunday 10am-4pm<br>
-                    <strong>Breakfast</strong>- Monday-Sunday 6am-8:30am<br>
-                    <strong>Brunch</strong>- Saturday & Sunday 9am-12pm<br><br>
-                    <a href="http://www.facebook.com/littlemarketbrasserie">Facebook</a> | <a href="http://www.twitter.com/littlemarketchi">Twitter</a> | <a href="http://www.instagram.com/littlemarketbrasserie">Instagram</a>
-                </p>
+                        <h2>Chicago Magazine</h2>
 
-            </div> <!--END INTERNAL BOX LEFT -->
+                        <h3>The Hot List</h3>
 
-            <div class="internal-box-right">
+                        <p>Ten places everyone is talking about and Tavernita is on that list.  See what Chicago magazine has to say about one of the hottest restaurants in Chicago</p>
 
-                <h2>Contact Us</h3>
+                        <p class="press-pdf">Click here for the full article</p>
 
-                    <form name="contactform" method="post" action="<?php bloginfo('template_directory'); ?>/send_form_email.php">
+                        <p class="press-date">November 19th, 2012</p>
 
-                        <ul>
-                
-                        <fieldset id="user-details">    
-                        
-                            <li>
-                            <label class="info-label" for="first_name">Name</label>
-                            <input type="text" name="first_name" />
-                            </li> 
-                        
-                            <li>
-                            <label class="info-label" for="email">E-Mail</label>
-                            <input type="email" name="email" /> 
-                            </li>
-                        
-                            <li>
-                            <label class="info-label" for="telephone">Telephone</label>
-                            <input type="tel" name="telephone" /> 
-                            </li>
-                        
-                        </fieldset><!--end user-details-->
-        
-                    <fieldset id="user-message">
-                
-                        <textarea name="comments" value="Message" onFocus="this.value=''"></textarea> 
-                    
-                        <input class="contact-submit" type="submit" value="Submit"/>        
-                    
-                    </fieldset><!-- end user-message -->
+                    </div> <!-- END FEATURED ARTICLE TEXT -->
 
-                </ul>
-         
-                </form> 
+            </div> <!-- END FEATURED ARTICLE -->
 
-            </div> <!--END INTERNAL BOX RIGHT -->
+                <div class="press-row" id="one">
+
+                    <div class="press-item">
+                        <img src="../img/press/thumb1.png">
+                            <h2>Bon Appetit</h2>
+                            <h3>Article Name</h3>
+                            <p>November 25, 2012</p>
+                    </div>
+
+                    <div class="press-item">
+                        <img src="../img/press/thumb1.png">
+                            <h2>Bon Appetit</h2>
+                            <h3>Article Name</h3>
+                            <p>November 25, 2012</p>
+                    </div>
+
+                    <div class="press-item">
+                        <img src="../img/press/thumb1.png">
+                            <h2>Food & Wine</h2>
+                            <h3>Best In Universe</h3>
+                            <p>November 25, 2012</p>
+                    </div>
+
+                    <div class="press-item">
+                        <img src="../img/press/thumb1.png">
+                            <h2>Bon Appetit</h2>
+                            <h3>Article Name</h3>
+                            <p>November 25, 2012</p>
+                    </div>
+
+                    <div class="press-item">
+                        <img src="../img/press/thumb1.png">
+                            <h2>Bon Appetit</h2>
+                            <h3>Article Name</h3>
+                            <p>November 25, 2012</p>
+                    </div>
+
+                </div> <!-- END PRESS ROW 1 -->
+
+                <div class="press-row" id="two">
+
+                    <div class="press-item">
+                        <img src="../img/press/thumb1.png">
+                            <h2>Bon Appetit</h2>
+                            <h3>Article Name</h3>
+                            <p>November 25, 2012</p>
+                    </div>
+
+                    <div class="press-item">
+                        <img src="../img/press/thumb1.png">
+                            <h2>Bon Appetit</h2>
+                            <h3>Article Name</h3>
+                            <p>November 25, 2012</p>
+                    </div>
+
+                    <div class="press-item">
+                        <img src="../img/press/thumb1.png">
+                            <h2>Bon Appetit</h2>
+                            <h3>Article Name</h3>
+                            <p>November 25, 2012</p>
+                    </div>
+
+                    <div class="press-item">
+                        <img src="../img/press/thumb1.png">
+                            <h2>Bon Appetit</h2>
+                            <h3>Article Name</h3>
+                            <p>November 25, 2012</p>
+                    </div>
+
+                    <div class="press-item">
+                        <img src="../img/press/thumb1.png">
+                            <h2>Bon Appetit</h2>
+                            <h3>Article Name</h3>
+                            <p>November 25, 2012</p>
+                    </div>
+
+                </div> <!-- END PRESS ROW 2 -->
 
         </div> <!-- END WRAPPER PAGE -->
-
-        <div class="bottom-box-pos">
-
-            <div class="bottom-box-three" id="one"><div class="tint"><div class="bottom-text-title"><h1>Reservations</h1></div></div></div>
-            <div class="bottom-box-three" id="two"><div class="tint"><div class="bottom-text-title"><h1>Menus</h1></div></div></div>
-            <div class="bottom-box-three" id="three"><div class="tint"><div class="bottom-text-title"><h1>Gallery</h1></div></div></div>
-        
-        </div> <!-- END BOTTOM BOXES -->
 
         <footer>
 
@@ -255,74 +280,15 @@
 
         </footer>
 
-       <script type="text/javascript">
-          function initialize() {
-            var mapOptions = {
-              zoom: 15,
-              panControl: false,
-              mapTypeControl: false,
-              center: new google.maps.LatLng(41.89924, -87.62756),
-              mapTypeId: google.maps.MapTypeId.ROADMAP
-            }
-            var map = new google.maps.Map(document.getElementById('map_canvas'),
-                                          mapOptions);
-
-            var image = 'img/lm-logo-maps1.png';
-            var myLatLng = new google.maps.LatLng(41.89924, -87.62756);
-            var marker = new google.maps.Marker({
-                position: myLatLng,
-                map: map,
-                animation: google.maps.Animation.DROP,
-                icon: image,
-            });
-
-            var styles = [
-                      {
-                        stylers: [
-                          { hue: "#ff9f67" },
-                          { saturation: -20 },
-                          { gamma: 1.50 }
-                        ]
-                      },{
-                        featureType: "road",
-                        elementType: "geometry",
-                        stylers: [
-                          { lightness: 100 },
-                          { visibility: "simplified" }
-                        ]
-                      },{
-                        featureType: "road",
-                        elementType: "labels.text.stroke",
-                        stylers: [
-                          { visibility: "off" }
-                        ]
-                      },
-
-                      {
-                        featureType: "water",
-                        elementType: "geometry.fill",
-                        stylers: [
-                            { visibility: "on" },
-                            { color: "#ffa066" },
-                            { lightness: 80 }
-                        ]
-                        }
-                    ];
-
-                    map.setOptions({styles: styles});
-          }
-
-        </script>
-
         <!-- SCRIPTS -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="../js/plugins.js"></script>
         <script src="../js/main.js"></script>
-        <script src="../js/jquery.backstretch.min"></script>
-        <script src="../js/jquery.superLabels.min.js"></script>
+        <script src="../js/footer.js"></script>
         <script> $('nav select').change(function() { window.location = $(this).find("option:selected").val(); }); </script>
+        <script type="text/javascript" src="../js/retina.js"></script>
     
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
